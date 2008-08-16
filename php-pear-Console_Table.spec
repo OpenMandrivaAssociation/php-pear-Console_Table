@@ -5,18 +5,18 @@
 
 Summary:	%{_pearname} - makes it easy to build console style tables
 Name:		php-pear-%{_pearname}
-Version:	1.0.7
-Release:	%mkrel 3
+Version:	1.1.2
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Console_Table/
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Provides methods such as addRow(), insertRow(), addCol() etc to build
@@ -75,5 +75,3 @@ rm -rf %{buildroot}
 %defattr(644,root,root,755)
 %{_datadir}/pear/%{_class}/*.php
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
