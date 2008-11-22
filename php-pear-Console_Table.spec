@@ -5,7 +5,7 @@
 
 Summary:	%{_pearname} - makes it easy to build console style tables
 Name:		php-pear-%{_pearname}
-Version:	1.1.2
+Version:	1.1.3
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
