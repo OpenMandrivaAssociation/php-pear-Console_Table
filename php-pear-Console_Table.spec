@@ -3,8 +3,8 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.1.3
-Release:	%mkrel 4
+Version:	1.1.4
+Release:	%mkrel 1
 Summary:	Makes it easy to build console style tables
 License:	PHP License
 Group:		Development/PHP
