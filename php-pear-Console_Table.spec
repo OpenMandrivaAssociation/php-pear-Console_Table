@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.1.5
-Release:	1
+Release:	2
 Summary:	Makes it easy to build console style tables
 License:	PHP License
 Group:		Development/PHP
