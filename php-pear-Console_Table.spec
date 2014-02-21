@@ -3,7 +3,7 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.1.6
+Version:	1.2.0
 Release:	1
 Summary:	Makes it easy to build console style tables
 License:	PHP License
@@ -137,6 +137,7 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 1.0.1-1mdk
 - initial Mandriva package (PLD import)
+
 
 
 
