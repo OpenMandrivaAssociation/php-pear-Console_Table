@@ -2,5 +2,6 @@ removed_sources:
   Console_Table-1.1.4.tgz: b7cde3dfd779037c7e31f5486dd4d99bd06b2a84
   Console_Table-1.1.5.tgz: eac4789f3ea6039f6a3f129673a51cdb8c62779c
   Console_Table-1.1.6.tgz: 2131d726bb1034f7d88d1442ce6447fe11044391
-sources:
   Console_Table-1.2.0.tgz: 9b283fe51a9ac37f9f37dd97acdcd0b769be5a62
+sources:
+  Console_Table-1.2.1.tgz: 45249dae3c51bd22ff0c61004b7dc0508e16bee1
