@@ -8,7 +8,7 @@ Release:	5
 Summary:	Makes it easy to build console style tables
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Console_Table/
+URL:		https://pear.php.net/package/Console_Table/
 Source0:	http://download.pear.php.net/package/Console_Table-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
